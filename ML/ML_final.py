@@ -27,7 +27,7 @@ face_list = []
 
 folder_path = "/photos/test"
 blobs = bucket.list_blobs(prefix=folder_path, delimiter='/')
-
+# 경로를 받아오는 과정에서 오류
 
 
 # Firebase Storage에서 특정 폴더의 이미지 다운로드 및 얼굴 인코딩
@@ -44,7 +44,6 @@ for filename in blobs :
 
 
 # 중요 인물 얼굴 받아오기
-name = input("중요 인물의 이름: ")
 image_path = input("중요 인물의 경로 입력: ")
 known_person = fr.load_image_file(image_path)
 

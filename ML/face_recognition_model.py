@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 
 
-
+###### 구글 코랩으로 얼굴 인식 라이브러리 이해 및 적용 간단하게 진행함. #######
 
 
 #### 1. 사진첩의 최근 50장 가져오기 ####
